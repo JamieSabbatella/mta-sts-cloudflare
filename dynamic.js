@@ -17,7 +17,7 @@ The below will need to be added for each Cloudflare DNS domain you want to serve
 
 */
 
-// Change MTA-STS policy template max age, mode enforce/testing.
+// Change MTA-STS policy template max age, mode: enforce/testing.
 const mtaPolicy = 
 `version: STSv1
 mode: enforce
